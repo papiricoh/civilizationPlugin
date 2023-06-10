@@ -1,0 +1,6 @@
+name: civilizationPlugin
+version: '${project.version}'
+main: org.papiricoh.civilizationplugin.CivilizationPlugin
+api-version: 1.20
+prefix: civ
+authors: [papiricoh]
