@@ -16,4 +16,11 @@ public class CityPlayer extends Player {
         super(uuid, name);
         this.role = CityRole.values()[role_id];
     }
+
+    public CityRole getRole() {
+        return role;
+    }
+    public void setRole(CityRole role) {
+        this.role = role;
+    }
 }

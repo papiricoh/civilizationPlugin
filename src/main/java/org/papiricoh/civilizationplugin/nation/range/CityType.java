@@ -1,7 +1,7 @@
 package org.papiricoh.civilizationplugin.nation.range;
 
 public enum CityType {
-    RUIN,
+    RUINS,
     SETTLEMENT,
     TOWN,
     SMALL_CITY,
