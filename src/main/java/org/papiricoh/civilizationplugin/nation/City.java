@@ -1,6 +1,7 @@
 package org.papiricoh.civilizationplugin.nation;
 
 import org.papiricoh.civilizationplugin.nation.range.CityType;
+import org.papiricoh.civilizationplugin.player.CityPlayer;
 import org.papiricoh.civilizationplugin.player.Player;
 
 import java.util.ArrayList;
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 public class City {
     private String name;
     private CityType city_type;
-    private ArrayList<Player> members;
+    private ArrayList<CityPlayer> members;
 
     public City(String name, CityType city_type) {
         this.name = name;

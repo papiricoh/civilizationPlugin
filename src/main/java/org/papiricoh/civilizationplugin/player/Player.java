@@ -10,4 +10,12 @@ public class Player {
         this.uuid = uuid;
         this.name = name;
     }
+
+    public UUID getUuid() {
+        return uuid;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
