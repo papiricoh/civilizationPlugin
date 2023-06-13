@@ -1,13 +1,11 @@
 package org.papiricoh.civilizationplugin.player;
 
 import org.papiricoh.civilizationplugin.player.roles.CityRole;
-import org.papiricoh.civilizationplugin.player.roles.NationRole;
 
 import java.util.UUID;
 
 public class CityPlayer extends Player {
     private CityRole role;
-    private NationRole nationRole;
 
     public CityPlayer(UUID uuid, String name) {
         super(uuid, name);
